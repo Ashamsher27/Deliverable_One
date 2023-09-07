@@ -102,11 +102,11 @@ h2 {
         display: flex;
         flex-direction: row;
         align-items: baseline;
-        width: auto;
+        width: auto;                     /* This is the auto-button width */
         padding-left: .5em;
     }
-    #button-details {
-        width: max-content;
+    #button-details {                   /* This is the auto-button width */
+        width: auto;
     }
     ul {
         padding-right: .5em;
@@ -129,9 +129,9 @@ h2 {
         flex-direction: column;
     }
     .learn-more {
-        width: auto;
+        width: auto;                    /* This is the auto-width button */
     }
-    #button-details-2{
+    #button-details-2{                 /* This is the auto-width button */
         padding: 1em 1em 1em 1em;
         text-align: left;
         width: auto;
